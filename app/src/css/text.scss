@@ -1,0 +1,46 @@
+
+body, body * {
+    color: $brown-1;
+}
+
+h1, h2, h3, h4, h5, h6,
+.text-h1, .text-h2, .text-h3, .text-h4, .text-h5, .text-h6 {
+    margin: 0.75em 0 0.5em 0;
+    color: $brown-2;
+    line-height: 1.25;
+}
+
+h1, .text-h1 {
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+h2, .text-h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    color: $brown-3;
+}
+
+h3, .text-h3 {
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+h4, .text-h4 {
+    font-size: 13pt;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $secondary;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.no-decoration {
+    text-decoration: none !important;   
+}

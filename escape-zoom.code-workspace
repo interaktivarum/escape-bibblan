@@ -1,0 +1,62 @@
+{
+	"folders": [
+		{
+			"path": "app"
+		},
+		{
+			"path": "server"
+		}
+	],
+	"settings": {
+		"eslint.workingDirectories": [ // This is so we can have the .eslintrc.js in subfolders without problem
+			{
+				"mode": "auto"
+			}
+		],
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			"typescript",
+			"vue"
+		],
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true,
+			//"source.fixAll.eslint": true
+		},
+		"javascript.format.enable": false, // seems to conflict with eslints formatter
+		"typescript.format.enable": false,
+		"vetur.validation.template": false,
+		"vetur.experimental.templateInterpolationService": true,
+		"vetur.format.enable": false,
+		"i18n-ally.localesPaths": [
+			"src/i18n"
+		],
+	},
+	"extensions": {
+		"recommendations": [
+			"dbaeumer.vscode-eslint",
+			"octref.vetur",
+			"lokalise.i18n-ally"
+		],
+		"unwantedRecommendations": [
+			"hookyqr.beautify",
+			"dbaeumer.jshint",
+			"ms-vscode.vscode-typescript-tslint-plugin"
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"type": "chrome",
+				"request": "launch",
+				"name": "Quasar App: chrome",
+				"url": "http://localhost:8080",
+				"webRoot": "${workspaceFolder:app}/app/src",
+				"sourceMapPathOverrides": {
+					"webpack:///./app/src/*": "${webRoot}/*"
+				}
+			}
+		]
+	}
+}

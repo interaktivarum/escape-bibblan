@@ -1,0 +1,431 @@
+{
+    "name": "Escape bibblan",
+    "id": "escape-bibblan",
+    "background": "magasin.jpg",
+    "intro": {
+        "header": "Dagen blir till kväll och biblioteket är påväg att stänga",
+        "text": "Alla lampor är släckta. Den sista bibliotekarien kommer upp från magasinet, efter sin sedvanliga runda för att säkerställa att alla besökare har gått hem. Hen tar en sista koll, går ut och låser ytterdörren.\n\n{{crew}} väntar ett par minuter. Ni kryper fram ur mörkret och ställer tillbaka boken Sliding Doors, dörrstoppet ni använt för att hindra magasindörren från att gå i lås.\n\nNi ser er omkring. Kusten är fri...",
+        "dialogs": {
+            "start": {
+                "text": "Ni tänder era pannlampor och smyger försiktigt ner till magasinet.",
+                "button": "Ok, nu kör vi!"
+            }
+        }
+    },
+    "rooms": [
+        {
+            "name": "Magasinet",
+            "background": "magasin.jpg",
+            "header": "Magasinet är mörkt och mysigt",
+            "text": "Ni hittar varsin sliten bok, de tycks inte ha blivit lästa på år och dagar. Ni använder era tröjärmar för att stryka bort gammalt magasindamm och lägger er på mage med spänning och pirr i kroppen...\n\nSolen är sedan länge borta när ni hör det skramla till i bortre änden av rummet. Ni ser ett långt skägg försvinna in under en stol.\n\n-Vem där!?",
+            "password": {
+                "value": "Gustav Vasa",
+                "label": "Vem har gömt sig under stolen?"
+            },
+            "clues": [
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Sweden_%28Pantone%29.png"
+                },
+                {
+                    "image": "https://cdn.pixabay.com/photo/2015/10/11/09/49/ski-982029_1280.jpg"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Gripsholms_slott_%28Jonas_Hallenberg%29_-_Nationalmuseum_-_39597.tif/lossy-page1-1535px-Gripsholms_slott_%28Jonas_Hallenberg%29_-_Nationalmuseum_-_39597.tif.jpg"
+                },
+                {
+                    "image": "https://cdn.pixabay.com/photo/2019/09/04/13/00/steering-wheel-4451548_1280.jpg"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gustav_Vasa_triumphs_2.png"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Dalah%C3%A4st-lightbox.jpg/1400px-Dalah%C3%A4st-lightbox.jpg"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, det var Gustav Vasa!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Deckarhyllan",
+            "background": "Deckaravdelning.jpg",
+            "header": "Ni lämnar magasinet, och går uppför trappan till bibliotekshallen",
+            "text": "Det klirrar som från porslin från bibliotekets deckarhylla. Du går dit. I en fåtölj anar du konturerna av en man i rutig kostym. På bordet bredvid ligger en blodig kniv. Mannen tar en slurk te ur sin tekopp och ser fundersam ut.\n\n- Jag behöver lösa det här problemet, men har glömt bort vem jag är. Kan du hjälpa mig?",
+            "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/b/bd/Arthur_Conan_Doyle_by_Walter_Benington%2C_1914.png"
+            ],
+            "password": {
+                "value": "Sherlock Holmes",
+                "label": "Vem har ni träffat?"
+            },
+            "clues": [
+                {
+                    "image": "https://pixnio.com/free-images/2017/05/04/2017-05-04-06-50-51-900x600.jpg"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f6/221b_at_Baker_Street.JPG"
+                },
+                {
+                    "text": "Läkarväska"
+                },
+                {
+                    "text": "Svart hund"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Falu_r%C3%B6df%C3%A4rg.JPG/1600px-Falu_r%C3%B6df%C3%A4rg.JPG"
+                },
+                {
+                    "text": "🎻"
+                },
+                {
+                    "text": "Pipa"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, det var Sherlock Holmes!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Geografi",
+            "background": "Geografi.jpg",
+            "header": "Mannen går upp som i rök. Men vad är detta?",
+            "text": "Det ser skräpigt ut på golvet. Du tittar närmare. Det är röd sand som ligger utströdd. Du följer spåren. Bakom en hylla skymtar du plötsligt en kvinna med traditionell dräkt från amerikansk ursprungsbefolkning.\n\n-Kan du hjälpa mig tillbaka?\n\nJo, men vart ska hon?",
+            "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/3/39/Utah_Desert_Monolith.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/f/ff/A_pair_of_Native_American_Navajo_dolls.png"
+            ],
+            "password": {
+                "value": "Grand Canyon",
+                "label": "Vart ska kvinnan?"
+            },
+            "clues": [
+                {
+                    "text": "Arizona"
+                },
+                {
+                    "text": "Världsarv"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Grand_2009b.jpg/640px-Grand_2009b.jpg"
+                },
+                {
+                    "image": "https://live.staticflickr.com/2643/5737611097_a9422bf903_b.jpg"
+                },
+                {
+                    "image": "https://live.staticflickr.com/5106/5600677005_a5c2321227_b.jpg"
+                },
+                {
+                    "text": "🇺🇸"
+                },
+                {
+                    "text": "Nationalpark"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, kvinnan ska till Grand Canyon!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Konstavdelningen",
+            "background": "Konstavdelningen.jpg",
+            "header": "Kvinnan försvinner. Men nu hörs något konstigt ljud från konstavdelningen! Någon som snarkar!?",
+            "text": "Du går in på avdelningen.",
+            "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/1/16/Lake_Siljan_and_R%C3%A4ttvik_-_panoramio.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/9/9d/Skansen_%C3%84lvrosg%C3%A5rden_1972.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/060715_Passat.jpg/640px-060715_Passat.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Anders_Tegnell_in_2020_%285_av_15%29.jpg/890px-Anders_Tegnell_in_2020_%285_av_15%29.jpg"
+            ],
+            "password": {
+                "value": "Anders Zorn",
+                "label": "Vem sover i konstavdelningen?"
+            },
+            "clues": [
+                {
+                    "text": "Gunnar Hellström"
+                },
+                {
+                    "text": "Målade av fyra amerikanska presidenter"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/SilverZornBadge.jpg/800px-SilverZornBadge.jpg"
+                },
+                {
+                    "text": "Åsa Jinder"
+                },
+                {
+                    "text": "Mora"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Zorn_-_Sandhamn%2C_1927.1998.jpg/930px-Zorn_-_Sandhamn%2C_1927.1998.jpg"
+                },
+                {
+                    "text": "Latitud 61.006657 (61°0'23\"N), Longitud 14.538769 (14°32'19\"E)"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, det är Anders Zorn som ligger och snarkar!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Naturvetenskap",
+            "background": "Naturvetenskap.jpg",
+            "header": "Anders Zorn försvinner. Du hör något som surrar. Ett bi! Du följer efter.",
+            "text": "Vid fönstret vid hylla Ue står en vacker krukväxt. Du ser att biet sätter sig där.",
+            "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/D%C3%BClmen%2C_Naturschutzgebiet_-Am_Enteborn-_--_2014_--_0202.jpg/1600px-D%C3%BClmen%2C_Naturschutzgebiet_-Am_Enteborn-_--_2014_--_0202.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sony_A77.jpg/1584px-Sony_A77.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hegel_by_Schlesinger.jpg/948px-Hegel_by_Schlesinger.jpg",
+                "https://upload.wikimedia.org/wikipedia/commons/a/ad/Nose_for_men.jpg"
+            ],
+            "password": {
+                "value": "Fotosyntesen",
+                "label": "Vilken process sökes?"
+            },
+            "clues": [
+                {
+                    "text": "Alg"
+                },
+                {
+                    "text": "Klorofyll"
+                },
+                {
+                    "text": "Löv"
+                },
+                {
+                    "text": "Solen"
+                },
+                {
+                    "text": "Dextrosol"
+                },
+                {
+                    "text": "Joseph Priestley och Jan Ingenhousz"
+                },
+                {
+                    "text": "6 H2O + 6 CO2 + ljusenergi → C6H12O6 (druvsocker) + 6 O2."
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, fotosyntesen är rätt svar!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Science fiction",
+            "background": "SFhyllor.jpeg",
+            "header": "Din nya uppdrag är att hitta din mentor som är supersöt och gullig.",
+            "text": "\"Control, control you must learn control\"",
+            "images": [
+                "SFskylt.jpeg"
+            ],
+            "password": {
+                "value": "Yoda",
+                "label": "Vem blir din mentor?"
+            },
+            "clues": [
+                {
+                    "image": "https://cdn.pixabay.com/photo/2011/12/14/12/11/astronaut-11080_1280.jpg"
+                },
+                {
+                    "image": "https://cdn.pixabay.com/photo/2018/03/17/04/07/tunnel-3233082_1280.jpg"
+                },
+                {
+                    "image": "http://billmunncoach.wpengine.com/wp-content/uploads/2014/10/et-at-madame-tussauds.jpg"
+                },
+                {
+                    "text": "59 män och 10 kvinnor har det som förnamn i Sverige"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Lightsaber_blue_%28with_shimmering_aura%29.png"
+                },
+                {
+                    "text": "May the force be with you"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, väl kommer Yoda att lära dig!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Barnavdelningen",
+            "background": "Barnavdelningen1.jpg",
+            "header": "Barnavdelningen",
+            "text": "Helt plötsligt dyker det upp en giraff i randig morgonrock som sätter av i full galopp mot barnavdelningen - du blir nyfiken och följer efter den.",
+            "images": [
+            ],
+            "password": {
+                "value": "Barbro Lindgren",
+                "label": "Vilken författare sökes?"
+            },
+            "clues": [
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Simpleicons_Business_pen-on-square-of-paper-interface-symbol.svg/1024px-Simpleicons_Business_pen-on-square-of-paper-interface-symbol.svg.png"
+                },
+                {
+                    "text": "Postnummer 386 95"
+                },
+                {
+                    "text": "ALMA pristagare"
+                },
+                {
+                    "text": "Benny, Max & Rosa"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Alice_cosy.jpg/1600px-Alice_cosy.jpg"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Mazariner1.jpg"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Loranga%2C_Tor_Svae_2014.tif/lossy-page1-1599px-Loranga%2C_Tor_Svae_2014.tif.jpg"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, Barbro Lindgren är rätt svar!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Datorhyllan",
+            "background": "Datorhyllan.jpg",
+            "header": "Datorhyllan",
+            "text": "Barbro Lindgren vinkar adjö och ett klickande ljud som från en maskin låter från Datorhyllan. Du smyger dit och upptäcker en figur klädd i empireklänning - vem är hon?",
+            "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/c/cc/Babbages_Analytical_Engine%2C_1834-1871._%289660574685%29.jpg"
+            ],
+            "password": {
+                "value": "Ada Lovelace",
+                "label": "Vem söker vi?"
+            },
+            "clues": [
+                {
+                    "text": "1815-1852"
+                },
+                {
+                    "text": "Begravd här: 53.039199769649656, -1.2055494687681105"
+                },
+                {
+                    "text": "\"Framtidens bästa profet är dåtiden\""
+                },
+                {
+                    "text": "Poetisk vetenskap"
+                },
+                {
+                    "text": "Den analytiska maskinen"
+                },
+                {
+                    "text": "Dandyns dotter"
+                },
+                {
+                    "text": "Augusta Ada King"
+                },
+                {
+                    "text": "Den första programmeraren"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, Ada Lovelace är rätt svar!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Spelavdelningen",
+            "background": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pok%C3%A9mon_Go_player_in_G%C3%A4vle%2C_Sweden.jpg/1600px-Pok%C3%A9mon_Go_player_in_G%C3%A4vle%2C_Sweden.jpg",
+            "header": "App, app, app!",
+            "text": "Ada Lovelace plockar upp mobilen och börjar spela ett spel - vilket?",
+            "images": [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Smartphone_icon.svg/848px-Smartphone_icon.svg.png"
+            ],
+            "password": {
+                "value": "Pokemon Go",
+                "label": "Vilket är spelet?"
+            },
+            "clues": [
+                {
+                    "text": "Släpptes i Sverige 2016-06"
+                },
+                {
+                    "text": "Augumented reality"
+                },
+                {
+                    "text": "Niantic"
+                },
+                {
+                    "text": "Bulbasaur - Ivysaur - Venusaur"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Pok%C3%A9mon_GO_Plus.svg/350px-Pok%C3%A9mon_GO_Plus.svg.png"
+                },
+                {
+                    "text": "\"Gotta catch ‘em all\""
+                },
+                {
+                    "text": "Kläck ägg, ta över gym och snurra pokéstops"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, Ada spelar Pokémon!",
+                    "button": "Fortsätt"
+                }
+            }
+        },
+        {
+            "name": "Filmavdelningen",
+            "background": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pok%C3%A9mon_Go_player_in_G%C3%A4vle%2C_Sweden.jpg/1600px-Pok%C3%A9mon_Go_player_in_G%C3%A4vle%2C_Sweden.jpg",
+            "header": "Film",
+            "text": "Pokémon Go är i en bal och måste rädda sig själv från en katastrof",
+            "images": [
+                "Film.jpg"
+            ],
+            "password": {
+                "value": "Titanic",
+                "label": "Vilken är filmen?"
+            },
+            "clues": [
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ship_Engine_%284214970473%29.jpg/1600px-Ship_Engine_%284214970473%29.jpg"
+                },
+                {
+                    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Vintage_Diamond_and_Sapphire_Engagement_Ring.jpg"
+                },
+                {
+                    "image": "Thegreatgatsby.jpg"
+                },
+                {
+                    "image": "https://cdn.pixabay.com/photo/2016/10/03/10/28/lost-place-1711254_1280.jpg"
+                },
+                {
+                    "image": "https://cdn.pixabay.com/photo/2014/04/10/11/35/red-320891_1280.jpg"
+                }
+            ],
+            "dialogs": {
+                "finished": {
+                    "text": "Bra jobbat, Titanic är rätt svar!",
+                    "button": "Fortsätt"
+                }
+            }
+        }
+    ]
+}
