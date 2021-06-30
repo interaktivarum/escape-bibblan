@@ -11,7 +11,7 @@
 
         <IntroText />
 
-        <h2>Vem smyger du till magasinet med?</h2>
+        <h2>Vem smyger ni till magasinet med?</h2>
         <p>
           Bjud in dina vänner för att tillsammans fortsätta berättelsen om natten i biblioteket.
         </p>

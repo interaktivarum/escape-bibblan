@@ -19,7 +19,7 @@
         <q-card-section>
           <p>
             <strong>Bjud in vänner!</strong><br>
-            https://escapezoom-se.web.app/join/{{group.id}}
+            {{url}}
           </p>
         </q-card-section>
 
@@ -65,6 +65,9 @@ export default {
   },
   computed: {
     ...mapState('socket', ['idClient', 'group']),
+    url: function () {
+      return window.location.origin + '/starta/' + this.group.id
+    },
     friends: function () {
       return this.group.clients.filter(c => c.id !== this.idClient)
     },

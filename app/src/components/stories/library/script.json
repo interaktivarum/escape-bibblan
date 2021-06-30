@@ -4,7 +4,7 @@
     "background": "magasin.jpg",
     "intro": {
         "header": "Dagen blir till kväll och biblioteket är påväg att stänga",
-        "text": "Alla lampor är släckta. Den sista bibliotekarien kommer upp från magasinet, efter sin sedvanliga runda för att säkerställa att alla besökare har gått hem. Hen tar en sista koll, går ut och låser ytterdörren.\n\n{{crew}} väntar ett par minuter. Ni kryper fram ur mörkret och ställer tillbaka boken Sliding Doors, dörrstoppet ni använt för att hindra magasindörren från att gå i lås.\n\nNi ser er omkring. Kusten är fri...",
+        "text": "Alla lampor är släckta. Bibliotekarien kommer upp från magasinet efter att ha gått sin vanliga runda för att se att ingen är kvar på biblioteket efter stängning. Efter en sista koll går bibliotekarien ut och låser ytterdörren.\n\n{{crew}} väntar ett par minuter. Ni kryper fram ur mörkret och ställer tillbaka boken som ni har använt för att hindra magasindörren från att gå i lås.\n\nNi ser er omkring. Kusten är fri...",
         "dialogs": {
             "start": {
                 "text": "Ni tänder era pannlampor och smyger försiktigt ner till magasinet.",

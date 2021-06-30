@@ -23,6 +23,9 @@
     </div>
 
     <div v-if="room.password">
+      <p class="text-bold">
+        {{room.password.label}}
+      </p>
       <q-input v-model="passwordEntered" type="text" :label="room.password.label" :hint="'Felgissningar: ' + guesses" standout bottom-slots bg-color="secondary" label-color="primary" input-class="text-primary text-bold" :disable="finished" @keydown.enter="guess">
         <template v-slot:prepend>
           <q-icon :name="finished ? 'lock_open' : 'lock'" color="primary"/>
